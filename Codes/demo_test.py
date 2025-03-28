@@ -429,7 +429,7 @@ if __name__ == '__main__':
     m=TD_model_prior_masks(input_tensors, f1_train = True, stateful=stateful)
 
 
-    weight_name = 'UHD_dcross_res_matt_res_p6_diem.01-299.6534'
+    weight_name = 'UHD_dcross_res_matt_res'
     print("Loading %s.h5"%weight_name)
     m.load_weights(model_path+'vap_model/%s.h5'%weight_name)
 
