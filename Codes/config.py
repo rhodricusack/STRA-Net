@@ -55,12 +55,12 @@ opt_large = 20
 ###################
 # TRAINING CONFIG #
 #################################
-work_path = '/research/dept2/qxlai/'
+work_path = '/root/STRA-Net'
 
-model_path = '/research/dept2/qxlai/'
+model_path = '/root/STRA-Net'
 
 # DataSets paths
-Linux_path = '/research/dept2/qxlai/DataSets/'
+Linux_path = '/root/STRA-Net/DataSets/'
 
 # DataSets = ['DHF1K'] # training setting 1
 # DataSets = ['Hollywood-2'] # training setting 2
